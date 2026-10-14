@@ -16,6 +16,9 @@ export function Hero() {
       <p className="mt-4 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
         {profile.headline}
       </p>
+      <p className="mt-3 text-base font-medium text-foreground">
+        Explore my interests and projects.
+      </p>
       <div className="mt-8 flex flex-wrap gap-3">
         <a href="#projects" className={cn(buttonVariants({ size: 'lg' }), 'h-11 px-5')}>
           View Projects
