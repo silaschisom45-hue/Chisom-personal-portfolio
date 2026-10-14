@@ -1,5 +1,5 @@
 import { Hero } from '@/components/hero'
-import { About, Contact, Projects, Skills } from '@/components/portfolio-sections'
+import { About, Contact, Interests, Projects } from '@/components/portfolio-sections'
 import { SiteHeader } from '@/components/site-header'
 import { profile } from '@/lib/portfolio'
 
@@ -10,7 +10,7 @@ export default function Page() {
       <main>
         <Hero />
         <About />
-        <Skills />
+        <Interests />
         <Projects />
         <Contact />
       </main>

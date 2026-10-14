@@ -21,9 +21,9 @@ export function About() {
   )
 }
 
-export function Skills() {
+export function Interests() {
   return (
-    <Section id="skills" title="Skills">
+    <Section id="interests" title="Areas of Interest">
       <ul className="flex flex-wrap gap-2">
         {profile.interests.map((skill) => (
           <li
